@@ -1,0 +1,26 @@
+.navbar
+{
+    overflow: hidden;
+    background-color: green;
+}
+
+.navbar a
+{
+  float: left;
+  color: white;
+  padding: 20px 20px;
+  font-size: 15px;
+  text-align:  center;
+}
+
+.navbar a:hover
+{
+  background-color: pink;
+  color: yellow;
+}
+
+.navbar a.active
+{
+  background-color:tomato;
+  color: white;
+}
